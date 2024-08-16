@@ -20,5 +20,8 @@ Ensure you have the following installed:
 ### For the UI
 **npm run dev**
 
+## Postman Documentation
+https://documenter.getpostman.com/view/21762343/2sA3s7jpQs
+
 Disclaimer
 Please note that this application is configured to use a local MySQL instance.
