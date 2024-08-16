@@ -9,16 +9,16 @@ Ensure you have the following installed:
 
 ## Installation
 ### Setup the database
-** mysql -u your-username -p your-database < server/tes_crud.sql **
+**mysql -u your-username -p your-database < server/tes_crud.sql**
 ### For the server / UI
 1. Navigate to server / UI folder
-2. ** npm install **
+2. **npm install**
 
 ## Running the Application
 ### For the server
-** npm run server **
+**npm run server**
 ### For the UI
-** npm run dev **
+**npm run dev**
 
 Disclaimer
 Please note that this application is configured to use a local MySQL instance.
