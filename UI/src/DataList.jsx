@@ -43,13 +43,13 @@ const DataList = () => {
     setModalVisible(false);
   };
 
-  const showConfirm = (id) => {
+  const showConfirm = (data) => {
     confirm({
       title: "Do you want to delete these data?",
       icon: <ExclamationCircleFilled />,
-      content: "Some descriptions",
+      content:`${data.name} data will be remove`,
       onOk() {
-        handleDelete(id);
+        handleDelete(data.id);
       },
       onCancel() {
         console.log("Cancel");
@@ -90,7 +90,7 @@ const DataList = () => {
           <Button type="primary" onClick={() => handleEdit(record)}>
             Edit
           </Button>
-          <Button danger onClick={() => showConfirm(record.id)}>
+          <Button danger onClick={() => showConfirm(record)}>
             Remove
           </Button>
         </Space>
